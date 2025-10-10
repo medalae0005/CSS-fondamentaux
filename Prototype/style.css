@@ -1,0 +1,107 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a; /* fond sombre */
+  color: #e2e8f0;            /* texte clair */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Flexbox pour la mise en page verticale */
+  align-items: center;
+}
+
+/* header */
+header {
+  display: flex; /* Flexbox pour aligner image + texte */
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e293b; /* section légèrement plus claire */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+header img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #64748b; /* contour gris bleuté sobre */
+}
+
+header h1 {
+  margin: 0;
+  color: #f1f5f9; /* blanc cassé, plus élégant que le bleu */
+  font-size: 1.8em;
+}
+
+/* principal content */
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+/* sections */
+section {
+  background-color: #f8fafc; /* clair sur fond sombre */
+  color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* titles */
+h2, h3 {
+  color: #0f172a;
+  border-bottom: 2px solid #94a3b8;
+  padding-bottom: 5px;
+}
+
+/* lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #94a3b8;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #e2e8f0;
+}
+
+/* footer */
+footer {
+  background-color: #1e293b;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+footer a {
+  color: #f1f5f9; /* clair pour contraster sur fond sombre */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
